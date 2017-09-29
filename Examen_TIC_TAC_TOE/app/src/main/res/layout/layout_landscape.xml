@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+
+            android:id="@+id/button_1l"
+            style="@android:style/Widget.Button.Inset"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:onClick="toggleButton"
+            android:text="-"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/button_2l"
+            style="@android:style/Widget.Button.Inset"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:elevation="0dp"
+            android:onClick="toggleButton"
+            android:text="-"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/button_3l"
+            style="@android:style/Widget.Button.Inset"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:onClick="toggleButton"
+            android:text="-"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/textView_ganadorl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="JUGANDO"
+            android:textColor="@android:color/black"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_4l"
+            style="@android:style/Widget.Button.Inset"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:onClick="toggleButton"
+            android:text="-"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/button_5l"
+            style="@android:style/Widget.Button.Inset"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:onClick="toggleButton"
+            android:text="-"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/button_6l"
+            style="@android:style/Widget.Button.Inset"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:onClick="toggleButton"
+            android:text="-"
+            android:textSize="30sp" />
+
+        <Button
+            android:onClick="restart"
+            android:id="@+id/button_restartl"
+            style="@android:style/Widget.Button.Inset"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="REINICIAR" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_7l"
+            style="@android:style/Widget.Button.Inset"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:onClick="toggleButton"
+            android:text="-"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/button_8l"
+            style="@android:style/Widget.Button.Inset"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:onClick="toggleButton"
+            android:text="-"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/button_9l"
+            style="@android:style/Widget.Button.Inset"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:onClick="toggleButton"
+            android:text="-"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+</LinearLayout>
